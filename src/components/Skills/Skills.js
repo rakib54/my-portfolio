@@ -1,6 +1,5 @@
 import React from 'react';
 import SendEmail from '../SendEmail/SendEmail';
-import Footer from '../Footer/Footer';
 
 const Skills = () => {
     return (
