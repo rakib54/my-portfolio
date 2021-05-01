@@ -1,0 +1,28 @@
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.home{
+
+    background-image: url('../../images/javascript3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 100vh;
+    color: white;
+}
+.name{
+    font-size: 60px;
+    font-weight: bolder;
+}
+.my-name{
+    color:rgb(209, 41, 74);
+}
+.home button{
+    color: white;
+    background: crimson;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+
+}
