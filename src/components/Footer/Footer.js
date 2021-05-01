@@ -1,5 +1,5 @@
 import React from 'react';
-import { faFacebookF, faInstagram, faGooglePlusG, faLinkedinIn, faGithub, faTwitch, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faInstagram, faLinkedinIn, faGithub,faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Footer.css'
 
@@ -41,11 +41,11 @@ const Footer = () => {
                         </div>
                         <div className="col-md-3">
                             <ul className="social-media list-inline">
-                                <li className="list-inline-item"><a href="//facebook.com" target="_blank"><FontAwesomeIcon className="icon active-icon" icon={faFacebookF} /></a></li>
-                                <li className="list-inline-item"><a href="//google.com" target="_blank"><FontAwesomeIcon className="icon" icon={faTwitter} /></a></li>
+                                <li className="list-inline-item"><a href="https://www.facebook.com/rakibur74/" target="_blank"><FontAwesomeIcon className="icon active-icon" icon={faFacebookF} /></a></li>
+                                <li className="list-inline-item"><a href="https://twitter.com/rakibur74" target="_blank"><FontAwesomeIcon className="icon" icon={faTwitter} /></a></li>
                                 <li className="list-inline-item"><a href="//instagram.com" target="_blank"><FontAwesomeIcon className="icon" icon={faInstagram} /></a></li>
-                                <li className="list-inline-item"><a href="//instagram.com" target="_blank"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a></li>
-                                <li className="list-inline-item"><a href="//instagram.com" target="_blank"><FontAwesomeIcon className="icon" icon={faGithub} /></a></li>
+                                <li className="list-inline-item"><a href="https://www.linkedin.com/in/rakibur74/" target="_blank"><FontAwesomeIcon className="icon" icon={faLinkedinIn} /></a></li>
+                                <li className="list-inline-item"><a href="https://github.com/rakib54" target="_blank"><FontAwesomeIcon className="icon" icon={faGithub} /></a></li>
                             </ul>
                         </div>
 

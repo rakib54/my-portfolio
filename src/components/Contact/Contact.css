@@ -1,0 +1,12 @@
+.contact body{
+    background-color: tomato;
+}
+.contact h2{
+    color: crimson;
+}
+.contact h5{
+    color: #091d4efb;
+}
+.contact a{
+    text-decoration: none;
+}
