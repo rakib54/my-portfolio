@@ -7,9 +7,9 @@ const Project = ({project}) => {
             <img style={{height:'150px'}} src={project.image} className="img-fluid" alt=""/>
             <h4 style={{height:'40px'}} className="mt-4">{project.name}</h4>
             <div className="btn text-center justify-content-center mt-2">
-            <a  className="ms-2" href={project.live} target="_blank"><button>live</button></a>
-            <a className="ms-2" href={project.Client} target="_blank"><button>Client</button></a>
-            <a className="ms-2" href={project.server} target="_blank"><button>Server</button></a>
+            <a  className="ms-2" href={project.live} ><button>live</button></a>
+            <a className="ms-2" href={project.Client} ><button>Client</button></a>
+            <a className="ms-2" href={project.server} ><button>Server</button></a>
             </div>
         </div>
     );
