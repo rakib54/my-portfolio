@@ -1,9 +1,8 @@
 import React from 'react';
-import SendEmail from '../SendEmail/SendEmail';
 
 const Skills = () => {
     return (
-        <section className="container mt-5">
+        <section style={{position:'relative'}} className="container mt-5">
             <div>
                 <h2 style={{color:'crimson'}}>Skills</h2>
                 <p><b>Programming language :</b> C , C++, Java , Javascript</p>
@@ -11,9 +10,7 @@ const Skills = () => {
                 <p><b>Back End:</b> Node js , Express js</p>
                 <p><b>Database:</b> Mongodb , Mysql</p>
                 <p><b>Tools:</b> VsCode , Netlify, Heroku, Dev tools,Github, Firebase</p>
-            </div>
-            <SendEmail></SendEmail>
-            
+            </div>           
         </section>
     );
 };

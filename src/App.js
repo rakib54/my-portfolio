@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact';
 import Blog from './components/Blog/Blog';
 import AllProjects from './components/AllProjects/AllProjects';
 import Particle from './components/Animation/Particle';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/about">
+            <About></About>
           </Route>
           <Route path="/contact">
             <Contact></Contact>

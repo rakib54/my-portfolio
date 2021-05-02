@@ -3,17 +3,18 @@ import Navbar from '../Navbar/Navbar';
 import myself from '../../images/myself2.jpg'
 import './Contact.css'
 import Skills from '../Skills/Skills';
+import Footer from '../Footer/Footer';
 
 const Contact = () => {
     return (
-        <main>
+        <main >
             <Navbar></Navbar>
             <section className="container contact">
                 <div className="row mt-5">
                     <div className='col-md-6'>
                         <img className="img-fluid" style={{ height: '450px' }} src={myself} alt="" />
                     </div>
-                    <div className="col-md-6 mt-3 col-sm-6">
+                    <div style={{position:'relative'}} className="col-md-6 mt-3 col-sm-6">
                         <h2>Rakibur Rahman</h2>
                         <h5>Front End Developer</h5>
                         <br/>
@@ -29,6 +30,7 @@ const Contact = () => {
                 
             </section>
             <Skills></Skills>
+            <Footer></Footer>
         </main>
     );
 };
