@@ -6,6 +6,8 @@ import car from '../../images/car.PNG'
 import healthy from '../../images/healthy.PNG'
 import Project from '../Project/Project';
 import './Projects.css'
+import sports from '../../images/sports.PNG'
+
 
 const projectData = [
     {
@@ -26,11 +28,11 @@ const projectData = [
     },
     {
         id: '3',
-        name: 'All Sports league',
-        image: car,
-        live: 'https://car-service-f8b0a.web.app/',
-        Client: 'https://github.com/rakib54/Car-Station',
-        server: 'https://github.com/rakib54/Car-station-server'
+        name: 'Sports World',
+        image: sports,
+        live: 'https://all-sports-leagues.netlify.app/',
+        Client: 'https://github.com/rakib54/All-Sports-leagues',
+        server: ''
     }
 ]
 
