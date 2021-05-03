@@ -14,7 +14,12 @@ const projectData = [
         image: car,
         live: 'https://car-service-f8b0a.web.app/',
         Client: 'https://github.com/rakib54/Car-Station',
-        server: 'https://github.com/rakib54/Car-station-server'
+        server: 'https://github.com/rakib54/Car-station-server',
+        description: <ul>
+            <li>Customer can book their service for washing or mechanics.</li>
+            <li> Admin and customer have different dashboard.</li>
+            <li><b>Tools:</b>React,JS,Mongodb, Firebase,Node Js, Express Js.</li>  
+            </ul>
     },
     {
         id: '2',
@@ -22,7 +27,12 @@ const projectData = [
         image: healthy,
         live: 'https://healthy-treats-ce35b.web.app/',
         Client: 'https://github.com/rakib54/Healthy-Treats',
-        server: 'https://github.com/rakib54/Healthy-treats-server'
+        server: 'https://github.com/rakib54/Healthy-treats-server',
+        description:<ul>
+        <li>E-commerce Site where customer can buy their necessary items</li>
+        <li> Need to Authenticate first</li>
+        <li><b>Tools:</b>React,JS,Mongodb, Firebase,Node Js, Express Js.</li>  
+        </ul>
     },
     {
         id: '3',
@@ -30,15 +40,25 @@ const projectData = [
         image: car,
         live: 'https://car-service-f8b0a.web.app/',
         Client: 'https://github.com/rakib54/Car-Station',
-        server: 'https://github.com/rakib54/Car-station-server'
+        server: 'https://github.com/rakib54/Car-station-server',
+        description:<ul>
+            <li>All the Sports league are available here</li>
+            <li>All leagues have different history</li>
+            <li><b>Tools:</b>React,JavaScript,React router,API</li>  
+        </ul>
     },
     {
-        id: '3',
+        id: '4',
         name: 'Sports World',
         image: sports,
         live: 'https://car-service-f8b0a.web.app/',
         Client: 'https://github.com/rakib54/Car-Station',
-        server: 'https://github.com/rakib54/Car-station-server'
+        server: '',
+        description:<ul>
+        <li>Sports history around the world are available</li>
+        <li>you can see their history.</li>
+        <li><b>Tools:</b>React,JavaScript,React router, API</li>  
+        </ul>
     }
 ]
 

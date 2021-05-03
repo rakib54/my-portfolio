@@ -1,0 +1,23 @@
+.project{
+    margin-top: 8%;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}
+.project a{
+    color: white;
+    background: crimson;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+}
+.card{
+    box-shadow: 2px 1px 25px rgb(204, 203, 203);
+    border: none; 
+}
