@@ -14,7 +14,7 @@ const HeaderMain = () => {
                 <h1 className="name">HI ! I AM <span className="my-name">RAKIBUR RAHMAN</span></h1>
                 <h5>I am a Front End Developer</h5>
                 <p></p>
-                <a style={{ position: 'relative' }} href={resume} download="Rakibur_Rahman_resume.pdf"><button><FontAwesomeIcon icon={faArrowDown} />download cv</button></a>
+                <a style={{ position: 'relative' }} href={resume} download="Rakibur_Rahman_Resume.pdf"><button><FontAwesomeIcon icon={faArrowDown} />download cv</button></a>
                 {/* <div style={{color:'white'}} className="d-flex justify-content-center mt-3">
                 <a href="https://github.com/rakib54" target="_blank" rel="noreferrer"><FontAwesomeIcon className="ms-3" icon={faGithub} /></a>
                 <a href="https://www.linkedin.com/in/rakibur74/" target="_blank" rel="noreferrer"><FontAwesomeIcon className="icon ms-3" icon={faLinkedinIn} /></a>
