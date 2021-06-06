@@ -6,7 +6,7 @@ import car from '../../images/car.PNG'
 import healthy from '../../images/healthy.PNG'
 import Project from '../Project/Project';
 import './Projects.css'
-import sports from '../../images/sports.PNG'
+import social from '../../images/social.PNG'
 
 
 const projectData = [
@@ -18,9 +18,9 @@ const projectData = [
         Client: 'https://github.com/rakib54/Car-Station',
         server: 'https://github.com/rakib54/Car-station-server',
         description: <ul>
-            <li>Customer can book their service for washing or mechanics.</li>
-            <li> Admin and customer have different dashboard.</li>
-            <li><b>Tools:</b>React,JS,Mongodb, Firebase,Node Js, Express Js.</li>  
+            <li>Utilized users booking service for their cars with payment gateway.</li>
+            <li>Implemented CRUD operation, firebase authentication, react hook form, react-router.</li>
+            <li><b>Tools:</b>React,JS,Mongodb, Firebase,Node Js, Express Js.</li> 
             </ul>
     },
     {
@@ -31,26 +31,25 @@ const projectData = [
         Client: 'https://github.com/rakib54/Healthy-Treats',
         server: 'https://github.com/rakib54/Healthy-treats-server',
         description:<ul>
-        <li>E-commerce Site where customer can buy their necessary items</li>
-        <li> Need to Authenticate first</li>
-        <li><b>Tools:</b>React,JS,Mongodb, Firebase,Node Js, Express Js.</li>  
+       <li>Implemented user’s orders system from the website.</li>
+        <li>Performed CRUD operations and implemented by the Admin.</li>
+        <li><b>Tools:</b>React,JS,Mongodb, Firebase,Node Js, Express Js.</li> 
         </ul>
 
     },
     {
         id: '3',
-        name: 'Sports World',
-        image: sports,
-        live: 'https://all-sports-leagues.netlify.app/',
-        Client: 'https://github.com/rakib54/All-Sports-leagues',
-        server: '',
+        name: 'Social App',
+        image: social,
+        live: 'https://thirsty-borg-dab2ed.netlify.app/',
+        Client: 'https://github.com/rakib54/social-app-client',
+        server: 'https://github.com/rakib54/Social-app-server',
         description:<ul>
-            <li>All the Sports league are available here</li>
-            <li>All leagues have different history</li>
-            <li><b>Tools:</b>React,JavaScript,React router,API</li>  
+            <li>Implemented user interface applying React and Redux.</li>
+            <li>User can add multiple posts or delete posts.</li>
+            <li><b>Tools:</b> React, Redux, Express JS, MongoDB</li>  
         </ul>
-
-    }
+    },
 ]
 
 const Projects = () => {

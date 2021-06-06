@@ -1,6 +1,12 @@
 .navbar{
     /* display: block; */
-    background: rgb(107, 10, 30);
-    color: white;
+    background: rgb(71, 15, 26);
+    /* color: white; */
+}
+link:hover{
+    color: red;
+}
+.nav-link:hover{
+    color: rgb(71, 15, 26);
 }
 

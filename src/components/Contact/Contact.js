@@ -20,8 +20,7 @@ const Contact = () => {
                         <br/>
                         <p><b>Email:</b> rakibur74@gmail.com</p>
                         <p><b>phone:</b> 01779545426</p>
-                        <p><b>Age:</b> 24</p>
-                        <p><b>my website :</b><a href="https://github.com/rakib54" target="_blank" rel="noopener noreferrer">www.rakibur74.com</a></p>
+                        <p><b>my github :</b><a href="https://github.com/rakib54" target="_blank" rel="noopener noreferrer"> github</a></p>
                         <h6><b>Education:</b> BSc in Computer Science.</h6>
                         <h5>American International University Bangladesh</h5>
                     </div>

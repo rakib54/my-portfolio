@@ -2,7 +2,7 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './HeaderMain.css'
-import resume from '../../images/Rakibur_Rahman_resume.pdf'
+import resume from '../../images/Rakibur_Rahman_Resume.pdf'
 // import { faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 
