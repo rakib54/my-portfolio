@@ -2,7 +2,7 @@ import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Link } from 'react-router-dom';
-import car from '../../images/car.PNG'
+import car from '../../images/car2.PNG'
 import healthy from '../../images/healthy.PNG'
 import Project from '../Project/Project';
 import './Projects.css'

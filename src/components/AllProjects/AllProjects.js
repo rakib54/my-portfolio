@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import AllProject from './AllProject';
-import car from '../../images/car.PNG'
+import car from '../../images/car2.PNG'
 import healthy from '../../images/healthy.PNG'
 import sports from '../../images/sports.PNG'
 import messenger from '../../images/native1.PNG'
@@ -65,8 +65,8 @@ const projectData = [
         id: '5',
         name: 'Sports World',
         image: sports,
-        live: 'https://car-service-f8b0a.web.app/',
-        Client: 'https://github.com/rakib54/Car-Station',
+        live: 'https://all-sports-leagues.netlify.app/',
+        Client: 'https://github.com/rakib54/All-Sports-leagues',
         server: '',
         description:<ul>
         <li> Utilized every Sports history around the world.</li>
