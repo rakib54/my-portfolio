@@ -4,12 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Footer.css'
 
 const noNamed = [
-    { name: "Portfolio" },
     { name: "Rakibur Rahman" }
 
 ]
 const ourAddress = [
-    { name: "1/B,Nikunja 2" },
     { name: "Khilkhet,Dhaka" }
 
 ]
@@ -49,8 +47,6 @@ const Footer = () => {
 
                             </ul>
                         </div>
-
-
 
                     </div>
                 </div>

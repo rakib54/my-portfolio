@@ -6,7 +6,8 @@ import car from '../../images/car2.PNG'
 import healthy from '../../images/healthy.PNG'
 import Project from '../Project/Project';
 import './Projects.css'
-import social from '../../images/social.PNG'
+import JobHunter from '../../images/jobHunter.PNG'
+
 
 
 const projectData = [
@@ -20,36 +21,38 @@ const projectData = [
         description: <ul>
             <li>Utilized users booking service for their cars with payment gateway.</li>
             <li>Implemented CRUD operation, firebase authentication, react hook form, react-router.</li>
-            <li><b>Tools:</b>React,JS,Mongodb, Firebase,Node Js, Express Js.</li> 
-            </ul>
+            <li><b>Tools:</b>React,JS,Mongodb, Firebase,Node Js, Express Js.</li>
+        </ul>
     },
     {
         id: '2',
-        name: 'Healthy Treats',
-        image: healthy,
-        live: 'https://healthy-treats-ce35b.web.app/',
-        Client: 'https://github.com/rakib54/Healthy-Treats',
-        server: 'https://github.com/rakib54/Healthy-treats-server',
-        description:<ul>
-       <li>Implemented user’s orders system from the website.</li>
-        <li>Performed CRUD operations and implemented by the Admin.</li>
-        <li><b>Tools:</b>React,JS,Mongodb, Firebase,Node Js, Express Js.</li> 
+        name: 'JOB Hunter',
+        image: JobHunter,
+        live: 'https://jobs-hunter-2cde0.web.app/',
+        Client: 'https://github.com/rakib54/JobHunter-Client',
+        server: 'https://github.com/rakib54/JobHunter-server',
+        description: <ul>
+            <li>Implemented Job Website where Job Seeker can apply for their Job with resume.</li>
+            <li>Utilized firebase authentication and validation for User, Admin and Employee.</li>
+            <li><b>Tools:</b>React,Mongodb, Firebase,Node Js, Express Js.</li>
         </ul>
 
     },
     {
         id: '3',
-        name: 'Social App',
-        image: social,
-        live: 'https://thirsty-borg-dab2ed.netlify.app/',
-        Client: 'https://github.com/rakib54/social-app-client',
-        server: 'https://github.com/rakib54/Social-app-server',
-        description:<ul>
-            <li>Implemented user interface applying React and Redux.</li>
-            <li>User can add multiple posts or delete posts.</li>
-            <li><b>Tools:</b> React, Redux, Express JS, MongoDB</li>  
+        name: "Healthy Treats",
+        image: healthy,
+        live: 'https://healthy-treats-ce35b.web.app/',
+        Client: 'https://github.com/rakib54/Healthy-Treats',
+        server: 'https://github.com/rakib54/Healthy-treats-server',
+        description: <ul>
+            <li>Implemented user’s orders system from the website.</li>
+            <li>Performed CRUD operations and implemented by the Admin.</li>
+            <li><b>Tools:</b>React,JS,Mongodb, Firebase,Node Js, Express Js.</li>
         </ul>
-    },
+
+    }
+
 ]
 
 const Projects = () => {

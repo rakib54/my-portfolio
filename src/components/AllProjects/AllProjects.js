@@ -6,6 +6,7 @@ import healthy from '../../images/healthy.PNG'
 import sports from '../../images/sports.PNG'
 import messenger from '../../images/native1.PNG'
 import social from '../../images/social.PNG'
+import JobHunter from '../../images/jobHunter.PNG'
 import Footer from '../Footer/Footer';
 
 
@@ -25,6 +26,20 @@ const projectData = [
     },
     {
         id: '2',
+        name: 'JOB Hunter',
+        image: JobHunter,
+        live: 'https://jobs-hunter-2cde0.web.app/',
+        Client: 'https://github.com/rakib54/JobHunter-Client',
+        server: 'https://github.com/rakib54/JobHunter-server',
+        description: <ul>
+            <li>Implemented Job Website where Job Seeker can apply for their Job with resume.</li>
+            <li>Utilized firebase authentication and validation for User, Admin and Employee.</li>
+            <li><b>Tools:</b>React,Mongodb, Firebase,Node Js, Express Js.</li>
+        </ul>
+
+    },
+    {
+        id: '3',
         name: 'Healthy Treats',
         image: healthy,
         live: 'https://healthy-treats-ce35b.web.app/',
@@ -37,7 +52,7 @@ const projectData = [
         </ul>
     },
     {
-        id: '3',
+        id: '4',
         name: 'Native Messenger',
         image: messenger,
         live: '',
@@ -49,7 +64,7 @@ const projectData = [
         </ul>
     },
     {
-        id: '4',
+        id: '5',
         name: 'Social App',
         image: social,
         live: 'https://thirsty-borg-dab2ed.netlify.app/',
@@ -62,7 +77,7 @@ const projectData = [
         </ul>
     },
     {
-        id: '5',
+        id: '6',
         name: 'Sports World',
         image: sports,
         live: 'https://all-sports-leagues.netlify.app/',
